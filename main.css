@@ -1,0 +1,1444 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+html
+#main{}
+.header{
+    background: white;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: space-between;
+    position: fixed;
+    display: flex;
+}
+.logo{
+    color: black;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.hamburger{
+  
+   cursor: pointer;
+}
+.hamburger .line{
+    width: 30px;
+    height: 3px;
+    background:black;
+    margin: 6px 0;
+}
+.nav ul{
+    
+display: none;
+}
+.nav ul li a{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 50px;
+}
+.nav ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.nav-bar.active{
+    background: black;
+    color: white;
+}
+.nav{
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background: black;
+    transition: 0.2s;
+    overflow: hidden;
+    
+}
+.nav.active{
+    height: 450px;
+}
+@media only screen and (max-width:2000px){
+    
+   .nav{
+    max-width: 200px;
+    position: absolute;
+    background: rgb(82, 81, 81);
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
+    overflow: hidden;
+   }
+   .nav .active{
+    height:450px ;
+   }
+   .nav ul {
+    display: block;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 700;
+   }
+ }
+ .content{
+    background: url(vccvv-min.jpg) top center / cover;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    padding: 0 30px;
+
+ }
+
+ .text-content{
+    padding: 30px 30px;
+    text-align: center;
+
+ }
+.text-heading{
+    font-size: 50px;
+    margin-top: 100px;
+    font-weight: 100;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:inherit;
+    animation-direction: alternate;
+}
+.text-headingg{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 100%;
+   
+}
+
+  
+.text-headinggg{
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.run{
+    margin-top: 30px;
+    border-width: 5px;
+    color: black;
+}
+.buy{
+    color: black;
+    margin-top: 50px;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    background-color:aqua;
+
+}
+.buy:hover{
+    background-color:white;
+    color:black;
+}
+.slider{
+   padding: 30px;
+   animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:initial;
+    animation-direction: alternate;
+}
+
+.member-list{
+    background-color: rgb(21, 2, 43);
+    width: 350px;
+    margin-left: 50px;
+    min-height: 300px;
+    margin-top: 50px;
+    color: aliceblue;
+    text-align: center;
+    float: left;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.member-name{
+    margin-top: 100px;
+    font-size: 30px;
+}
+.member-namee{
+    padding: 30px 20px;
+}
+.member-listt{
+    background-color: rgb(18, 92, 8);
+    width: 300px;
+    margin-left: 50px;
+    min-height: 300px;
+    margin-top: 50px;
+    color: aliceblue;
+    text-align: center;
+    float: left;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.member-listtt{
+    background-color:  rgb(21, 2, 43);
+    width: 300px;
+    margin-left: 50px;
+    height: 300px;
+    margin-top: 50px;
+    color: aliceblue;
+    text-align: center;
+    float: left;
+    border-radius: 20px;
+    
+}
+
+.icon{
+    font-size: 40px;
+    color: wheat;
+   
+}
+.sub-nav {
+    margin-top: 400px;
+}
+
+.subnav{
+    background: #243f56;
+    height: 350px;
+    width: 80%;
+    overflow: hidden;
+    margin-left: 150px;
+    text-align: center;
+    color:white;
+    margin-top: 300px;
+   
+}
+    
+
+.welcome{
+padding: 40px;
+font-size: 40px;
+font-weight:700;
+
+}
+.welcomee{
+    width: 800px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.of{
+    font-size: 70px;
+    color: rgb(5, 73, 73);
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px;
+}
+.hight{
+ 
+ margin-left: 40px;
+}
+.hightt{
+    background: white;
+    width: 350px;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+    float: left;
+}
+.so{
+    padding: 30px 0;
+    font-size: 50px;
+    font-weight: 100;
+}
+.quality{
+    font-size: 30px;
+    font-weight: 100;
+}
+.vitare{
+    width: 300px;
+    padding: 20px 10px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.highttt{
+    background: #4fb291;
+    width: 350px;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+    color: aliceblue;
+    text-align: center;
+    float: left;
+}
+.team{
+    background: #243f56;
+    width: 350px;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+    color: aliceblue;
+    text-align: center;
+    float: left;
+}
+.howw{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 500px;
+    animation-duration: 3s;
+    animation-name: hello;
+    animation-iteration-count:initial;
+    animation-direction: alternate;
+    
+}
+
+.howw{
+   
+    background-image: linear-gradient(0deg, rgba(36,63,86,0.85), rgba(36,63,86,0.85)), url(jhhhhhh.jpg);
+    
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.coa{
+    margin-top: 100px;
+    font-size: 50px;
+}
+.simple{
+    width: 700px;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 250px;
+}
+.go{
+    text-align: center;
+    margin-left: 400px;
+}
+.buyy{
+    float: left;
+    color: black;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    background-color:aqua;
+    margin-left: 30px;
+    overflow: hidden;
+    
+}
+
+.buyy:hover{
+    background-color:white;
+    color:black;
+}
+.image{
+   margin-top: 150px;
+   padding: 20px 0;
+   font-size: 20px;
+}
+.href{
+    color: azure;
+}
+.each{
+    margin-top: 30px;
+}
+.page{
+    float: left;
+    margin-left: 110px;
+    overflow: hidden;
+    
+}
+.pro{
+    font-size: 40px;
+    width: 100px;
+    color:#4fb291 ;
+    font-weight: 800;
+}
+.Skills{
+    margin-top: 30px;
+    
+    font-size: 30px;
+    
+}
+.help{
+    width: 200px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.hinh{
+    background: url(Untitled-1.png) top center / cover;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin-top: 90px;
+}
+.sam{
+color:#4fb291 ;
+font-size: 60px;
+margin-left: 50px;
+margin-top: 80px;
+
+}
+.headline{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.Sample{
+    text-align: center;
+    font-size: 20px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.more{
+   margin-top: 650px; 
+   margin-left: 100px;
+   
+}
+.where{
+    margin-left: 70px;
+    width: 90%;
+    height: 700px;
+    padding: 30px 20px;
+    margin-top: 50px;
+    background-image: linear-gradient(0deg, rgba(36,63,86,0.65), rgba(36,63,86,0.65)),url(himh.jpg);
+    
+}
+.Excepteur{
+    margin-left: 30px;
+}
+
+.class{
+    font-size: 50px;
+    width: 500px;
+    color: #4fb291;
+    margin-top: 20px;
+    
+}
+.sunt{
+    width: 500px;
+    font-size: 20px;
+    margin-top: 30px;
+    color: aliceblue;
+}
+.courses{
+    margin-top: 40px;
+}
+.est{
+    float: left;
+    margin-left: 60px;
+}
+.and{
+    font-size: 40px;
+    color: aliceblue;
+    width: 500px;
+}
+.click{
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 15px;
+}
+.k{
+    font-size: 70px;
+    color: #4fb291;
+    margin-top: 20px;
+}
+.one{
+    font-size: 20px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+.kk{
+    font-size: 70px;
+    color: #4fb291;
+    margin-top: 50px;
+}
+.meet{
+    text-align: center;
+}
+.the{
+    color: black;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 40px;
+    font-weight: 800;
+    
+}
+.our{
+    color: #4fb291;
+    margin-top:20px ;
+    font-size: 50px;
+    font-weight: 800;
+}
+.main{
+    float: left;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.img{
+    margin-left: 20px;
+    width: 250px;
+
+}
+.mary{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.maryy{
+    color:#4fb291;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.glavi{
+    font-size: 18px;
+    width: 300px;
+    margin-top: 20px;
+}
+.footer{
+    font-size: 20px;
+    color: #4fb291;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+
+}
+.start {
+   margin-top: 550px;
+    
+}
+.free{
+    background: #4fb291;
+    color: white;
+    width: 90%;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.using{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.all {
+    font-size: 30px;
+    width: 600px;
+    margin-top: 20px;
+}
+.form-controll{
+    color: black;
+    width: 30%;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    float: left
+}
+.or {
+    color:white;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+.hello {
+    color: aliceblue;
+}
+.save {
+    float:right;
+    margin-top: -200px;
+    margin-right: 150px;
+}
+.cancel {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.with {
+    background-color: #243f56;
+    width: 90%;
+    margin-left: 50px;
+    height: 300px;
+    text-align: center;
+    color: aliceblue;
+}
+.day {
+    font-size: 25px;
+   padding: 50px;
+}
+.dayy {
+   text-align: center;
+   font-size: 18px;
+   margin-top: 50px;
+}
+ 
+@media  screen and (max-width:500px){
+   
+    .sub-nav {
+        margin-top: 1100px;
+    }
+    
+    .subnav{
+        background:#243f56;
+      height: 450px;
+        width: 100%;
+        overflow: hidden;
+        margin-left: 10px;
+        text-align: center;
+        color:white;
+        
+    
+        
+    }
+    .welcome{
+    padding: 40px;
+    font-size: 40px;
+    font-weight:700;
+    }
+    .welcomee{
+        width: 380px;
+        margin-left: 50px;
+        font-size: 20px;
+        
+    }
+    .content{
+        background: url(vccvv-min.jpg) top center / cover;
+        width: 100%;
+        height: 550px;
+        overflow: hidden;
+        padding: 0 30px;
+    
+     }
+     .member-list{
+        background-color: rgb(21, 2, 43);
+        width: 330px;
+        margin-left: 50px;
+        min-height: 300px;
+        margin-top: 50px;
+        color: aliceblue;
+        text-align: center;
+        float: left;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+     .highttt{
+        background: #4fb291;
+        width: 330px;
+        height: 400px;
+        margin-left: 30px;
+        border-radius: 20px;
+        margin-top: 50px;
+        color: aliceblue;
+        text-align: center;
+        float: left;
+    }
+    .team{
+        background: #243f56;
+        width: 330px;
+        height: 400px;
+        margin-left: 70px;
+        border-radius: 20px;
+        margin-top: 50px;
+        color: aliceblue;
+        text-align: center;
+        float: left;
+    }
+    .howw{
+        text-align: center;
+        color: aliceblue;
+        margin-top: 1400px;
+    }
+    .howw{
+    
+        background-image: linear-gradient(0deg, rgba(36,63,86,0.85), rgba(36,63,86,0.85)), url(jhhhhhh.jpg);
+        
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+    .coa{
+        margin-top: 100px;
+        font-size: 40px;
+    }
+    .simple{
+        width: 400px;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .go{
+        text-align: center;
+        margin-left: 40px;
+    }
+    .buyy{
+        float: left;
+        color: black;
+        margin-top: 30px;
+        border-radius: 50px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 200;
+        background-color:aqua;
+        margin-left: 30px;
+        overflow: hidden;
+        
+    }
+    
+    .buyy:hover{
+        background-color:white;
+        color:black;
+    }
+    .image{
+       margin-top: 150px;
+       padding: 20px 0;
+       font-size: 20px;
+    }
+    .href{
+        color: azure;
+    }
+    .each{
+        margin-top: 30px;
+    }
+    .page{
+        float: left;
+        margin-left: 150px;
+        overflow: hidden;
+    }
+    .pro{
+        font-size: 40px;
+        width: 100px;
+        color:#4fb291 ;
+        font-weight: 800;
+    }
+    .Skills{
+        margin-top: 30px;
+        
+        font-size: 30px;
+        
+    }
+    .help{
+        width: 200px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .hinh{
+        background: url(Untitled-1.png) top center / cover;
+        width: 250px;
+        height: 250px;
+        text-align: center;
+        margin-top: 90px;
+        margin-left: 0;
+       
+    }
+    .sam{
+    color:#4fb291 ;
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 80px;
+    
+    }
+    .headline{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .Sample{
+        text-align: center;
+        font-size: 20px;
+        width: 150px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .more{
+       margin-top: 1600px; 
+       margin-left: 170px;
+       
+    }
+    .where{
+        margin-left: 0;
+        width: 100%;
+        height: 1000px;
+        padding: 30px 0;
+        margin-top: 50px;
+        background-image: linear-gradient(0deg, rgba(36,63,86,0.65), rgba(36,63,86,0.65)),url(himh.jpg);
+        
+    }
+    .Excepteur{
+        margin-left: 30px;
+    }
+    
+    .class{
+        font-size: 50px;
+        width: 500px;
+        color: #4fb291;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .sunt{
+        width: 400px;
+        font-size: 20px;
+        margin-top: 30px;
+        color: aliceblue;
+    }
+    .courses{
+        margin-top: 40px;
+    }
+    .est{
+        float: left;
+        margin-left: 60px;
+    }
+    .and{
+        font-size: 40px;
+        color: aliceblue;
+        width: 400px;
+    }
+    .click{
+        margin-top: 20px;
+        color: aliceblue;
+        font-size: 15px;
+    }
+    .k{
+        font-size: 70px;
+        color: #4fb291;
+        margin-top: 20px;
+    }
+    .one{
+        font-size: 20px;
+        margin-top: 20px;
+        color: aliceblue;
+    }
+    .kk{
+        font-size: 70px;
+        color: #4fb291;
+        margin-top: 50px;
+    }
+    .meet{
+        text-align: center;
+    }
+    .the{
+        color: black;
+        font-size: 50px;
+        font-weight: 300;
+        margin-top: 40px;
+        font-weight: 800;
+        
+    }
+    .our{
+        color: #4fb291;
+        margin-top:20px ;
+        font-size: 50px;
+        font-weight: 800;
+    }
+    .main{
+        float: left;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    .img{
+        margin-left: 20px;
+        width: 250px;
+    
+    }
+    .mary{
+        color:black;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .maryy{
+        color:#4fb291;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .glavi{
+        font-size: 18px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    .footer{
+        font-size: 20px;
+        color: #4fb291;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 20px;
+        
+    
+    }
+    .start {
+       margin-top: 1600px;
+        
+    }
+    .free{
+        background: #4fb291;
+        color: white;
+        width: 100%;
+        height: 700px;
+        overflow: hidden;
+         margin-left: 0;
+        margin-top: 50px;
+        padding: 30px;
+    }
+    .using{
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .all {
+        font-size: 30px;
+        width: 400px;
+        margin-top: 20px;
+    }
+    .form-controll{
+        color: black;
+        width: 50%;
+        padding: 15px;
+        font-size: 13px;
+        border-bottom: 30px;
+        border-radius: 20px;
+        margin-top: 30px;
+        float: left
+    }
+    .or {
+        color:white;
+        margin-top: 100px;
+        margin-left: 30px;
+        font-size: 20px;
+        
+    }
+    .hello {
+        color: aliceblue;
+    }
+    .save {
+        float:right;
+        margin-top: 50px;
+        margin-right: 150px;
+    }
+    .cancel {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .with {
+        background-color: #243f56;
+        width: 100%;
+        margin-left: 0;
+        height: 300px;
+        text-align: center;
+        color: aliceblue;
+    }
+    .day {
+        font-size: 25px;
+       padding: 50px;
+    }
+    .dayy {
+       text-align: center;
+       font-size: 18px;
+       margin-top: 50px;
+    }
+    
+}
+@media  screen and (min-width:1300px){
+    
+    .text-headinggg{
+        margin-top: 20px;
+        font-size: 30px;
+        font-style: italic;
+        width: 800px;
+        margin-left: 500px;
+    
+    }
+    .member-list{
+        background-color: rgb(21, 2, 43);
+        width:400px;
+        margin-left: 300px;
+        height: 400px;
+        margin-top: 50px;
+        color: aliceblue;
+        text-align: center;
+        float: left;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .member-name{
+        margin-top: 100px;
+        font-size: 40px;
+    }
+    .member-namee{
+        padding: 30px 20px;
+        font-size: 30px;
+    }
+    .member-listt{
+        background-color: rgb(18, 92, 8);
+        width: 400px;
+        margin-left: 50px;
+        height: 400px;
+        margin-top: 50px;
+        color: aliceblue;
+        text-align: center;
+        float: left;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .member-listtt{
+        background-color:  rgb(21, 2, 43);
+        width: 400px;
+        margin-left: 50px;
+        height: 400px;
+        margin-top: 50px;
+        color: aliceblue;
+        text-align: center;
+        float: left;
+        border-radius: 20px;
+        
+    }
+    .icon{
+        font-size: 40px;
+        color: wheat;
+       
+    }
+    .sub-nav {
+        margin-top: 500px;
+    }
+    
+    .subnav{
+        background:#243f56;
+      height: 600px;
+        width: 100%;
+        overflow: hidden;
+        margin-left: 5px;
+        text-align: center;
+        color:white;
+        
+    
+        
+    }
+    .welcome{
+    padding: 40px;
+    font-size: 50px;
+    font-weight:700;
+    }
+    .welcomee{
+        width: 1000px;
+        margin-left: 500px;
+        font-size: 40px;
+        
+    }
+    .content{
+        background: url(vccvv-min.jpg) top center / cover;
+        width: 100%;
+        height: 550px;
+        overflow: hidden;
+        padding: 0 30px;
+    
+     }
+     .hightt{
+        background: white;
+        width: 400px;
+        height: 450px;
+        margin-left: 200px;
+        border-radius: 20px;
+        margin-top: 50px;
+        color: black;
+        text-align: center;
+        float: left;
+    }
+     .highttt{
+        background: #4fb291;
+        width: 400px;
+        height: 450px;
+        margin-left: 200px;
+        border-radius: 20px;
+        margin-top: 50px;
+        color: aliceblue;
+        text-align: center;
+        float: left;
+    }
+    .team{
+        background: #243f56;
+        width: 400px;
+        height: 400px;
+        margin-left: 200px;
+        border-radius: 20px;
+        margin-top: 50px;
+        color: aliceblue;
+        text-align: center;
+        float: left;
+    }
+    .howw{
+        text-align: center;
+        color: aliceblue;
+        margin-top: 400px;
+    }
+    .howw{
+    
+        background-image: linear-gradient(0deg, rgba(36,63,86,0.85), rgba(36,63,86,0.85)), url(jhhhhhh.jpg);
+        
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+    .coa{
+        margin-top: 100px;
+        font-size: 40px;
+    }
+    .simple{
+        width: 800px;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-left: 500px;
+    }
+    .go{
+        text-align: center;
+        margin-left: 700px;
+    }
+    .buyy{
+        float: left;
+        color: black;
+        margin-top: 30px;
+        border-radius: 50px;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 200;
+        background-color:aqua;
+        margin-left: 30px;
+        overflow: hidden;
+        
+    }
+    
+    .buyy:hover{
+        background-color:white;
+        color:black;
+    }
+    .image{
+       margin-top: 200px;
+       padding: 20px 0;
+       font-size: 20px;
+    }
+    .href{
+        color: azure;
+    }
+    .each{
+        margin-top: 30px;
+    }
+    .page{
+        float: left;
+        margin-left: 200px;
+        overflow: hidden;
+    }
+    .pro{
+        font-size: 50px;
+        width: 300px;
+        color:#4fb291 ;
+        font-weight: 800;
+    }
+    .Skills{
+        margin-top: 30px;
+        
+        font-size: 40px;
+        
+    }
+    .help{
+        width: 400px;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .hinh{
+        background: url(Untitled-1.png) top center / cover;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin-top: 200px;
+       
+    }
+    .sam{
+    color:#4fb291 ;
+    font-size: 70px;
+    margin-left: 150px;
+    margin-top: 80px;
+    
+    }
+    .headline{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .Sample{
+        text-align: center;
+        font-size: 30px;
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    .more{
+       margin-top: 700px; 
+       margin-left: 170px;
+       
+    }
+    
+    .where{
+        margin-left: 0;
+        width: 100%;
+        height: 1000px;
+        padding: 30px 0;
+        margin-top: 50px;
+        background-image: linear-gradient(0deg, rgba(36,63,86,0.65), rgba(36,63,86,0.65)),url(himh.jpg);
+        
+    }
+    .Excepteur{
+        margin-left: 30px;
+    }
+    
+    .class{
+        font-size: 60px;
+        width: 1000px;
+        color: #4fb291;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .sunt{
+        width: 800px;
+        font-size: 30px;
+        margin-top: 30px;
+        color: aliceblue;
+    }
+    .courses{
+        margin-top: 40px;
+    }
+    .est{
+        float: left;
+        margin-left: 60px;
+    }
+    .and{
+        font-size: 40px;
+        color: aliceblue;
+        width: 600px;
+    }
+    .click{
+        margin-top: 30px;
+        color: aliceblue;
+        font-size: 25px;
+    }
+    .k{
+        font-size: 70px;
+        color: #4fb291;
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+    .one{
+        font-size: 30px;
+        margin-top: 20px;
+        color: aliceblue;
+        margin-left: 200px;
+    }
+    .kk{
+        font-size: 70px;
+        color: #4fb291;
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+    .meet{
+        text-align: center;
+    }
+    .the{
+        color: black;
+        font-size: 60px;
+        font-weight: 400;
+        margin-top: 40px;
+        font-weight: 800;
+        
+    }
+    .our{
+        color: #4fb291;
+        margin-top:20px ;
+        font-size: 60px;
+        font-weight: 800;
+    }
+    .main{
+        float: left;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    .img{
+        margin-left: 100px;
+        width: 400px;
+    
+    }
+    .mary{
+        color:black;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .maryy{
+        color:#4fb291;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .glavi{
+        font-size: 25px;
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .footer{
+        font-size: 40px;
+        color: #4fb291;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 20px;
+        
+    
+    }
+    .start {
+       margin-top: 800px;
+        
+    }
+    .free{
+        background: #4fb291;
+        color: white;
+        width: 100%;
+        height: 700px;
+        overflow: hidden;
+         margin-left: 0;
+        margin-top: 50px;
+        padding: 30px;
+    }
+    .using{
+        font-size: 50px;
+        margin-top: 60px;
+    }
+    .all {
+        font-size: 40px;
+        width: 500px;
+        margin-top: 30px;
+    }
+    .form-controll{
+        color: black;
+        width: 50%;
+        padding: 20px;
+        font-size: 30px;
+        border-bottom: 30px;
+        border-radius: 20px;
+        margin-top: 30px;
+        float: left
+    }
+    .or {
+        color:white;
+        margin-top: 200px;
+        margin-left: 30px;
+        font-size: 20px;
+        
+    }
+    .hello {
+        color: aliceblue;
+    }
+    .save {
+        float:right;
+        margin-top: -400px;
+        margin-right: 150px;
+    }
+    .cancel {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .with {
+        background-color: #243f56;
+        width: 100%;
+        margin-left: 0;
+        height: 300px;
+        text-align: center;
+        color: aliceblue;
+    }
+    .day {
+        font-size: 35px;
+       padding: 50px;
+    }
+    .dayy {
+       text-align: center;
+       font-size: 25px;
+       margin-top: 80px;
+    }
+    .so{
+        padding: 30px 0;
+        font-size: 60px;
+        font-weight: 200;
+    }
+    .quality{
+        font-size: 40px;
+        font-weight: 100;
+    }
+    .vitare{
+        width: 400px;
+        padding: 20px 10px;
+        margin-left: 0;
+        font-size: 30px;
+    }
+}
+@keyframes hello {
+    from {
+      margin-top: 50%;
+      width: 0%;
+    }
+  
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+}
+@keyframes run {
+    from {
+      margin-left: 80%;
+      width: 0%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+.hight{
+    animation-name: run;
+    animation-duration: 2s;
+    animation-direction:inherit ;
+    overflow: hidden;
+    
+}
+@keyframes slidein {
+    from {
+      margin-top: 50%;
+      
+    }
+  
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+}
+.class{
+    animation-name: slidein;
+    animation-duration: 2s;
+    animation-direction:inherit ;
+    overflow: hidden;
+    
+}
+.using {
+    animation-name: slidein;
+    animation-duration: 2s;
+    animation-direction:inherit ;
+    overflow: hidden;
+}
